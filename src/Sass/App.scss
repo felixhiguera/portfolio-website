@@ -1,0 +1,232 @@
+@import './Variables.scss';
+@import './Button.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+body{
+    width: 100vw;
+    height: 100vh;
+   
+}
+.button-cv{
+    display: flex;
+    align-self: center;
+    a{
+        
+       button{
+        background-color: #fd8177;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        
+       }
+    }
+}
+
+    
+    
+    main{
+        font-size: 62.5%;
+        font-family: 'Open Sans', sans-serif;
+
+        .yellow-color {
+            color:yellow;
+            }
+            
+        
+        .main-part{
+            height: 85vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-content: center;
+            h1{
+                color: $colorText;
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+            img{
+                width: 400px;
+            }
+            .main-part-text{
+                display: grid;
+                text-align: center;
+                align-content: center;
+                .icons{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+            }
+         
+        }
+        .fa-arrow-alt-circle-down {
+
+            color: #fd8177;
+            display: flex;
+            justify-content: center;
+          
+          }
+
+          .aboutme{
+              margin: 100px auto;
+              
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+
+              h2{
+                  color: $colorText;
+                  margin-bottom: 50px;
+                  font-size: 1.6rem;
+                  font-weight: 400;
+              }
+              p{
+                  font-size: 1rem;
+              }
+             .skills{
+                 display: grid;
+                 grid-template-columns: 1fr 1fr 1fr ;
+                 grid-template-rows: 1fr 1fr;
+                 grid-gap: 20px;
+                
+                 .fa-html5{
+                     color:#dc4a25 ;
+                 }
+                 .fa-css3-alt{
+                     color: #264bdd;
+                 }
+                 .fa-js{
+                     color: #eed71b;
+                 }
+                 .fa-react{
+                     color: #5ed2f3;
+                 }
+                 .fa-bootstrap{
+                     color: #780ff0;
+                 }
+                 .fa-git{
+                     color: #E74F31;
+                 }
+                 .fa-sass{
+                     color:#c86195;
+                 }
+             } 
+          }
+          .projects{
+              h2{
+                  color: $colorText;
+                  font-size: 1.6rem;
+              }
+              .card{
+                
+                 display: grid;
+                 grid-template-columns: 1fr 1fr; 
+                 margin: 20px 0;
+                 box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+               
+                 .card-text{
+                     margin: 10px;
+                    h2{
+                        font-size: 1.6rem;
+                        
+                    }
+                    p{
+                        font-size: 1rem;
+                    }
+                    button{
+                        width: 100px;
+                        height: 30px;
+                        border: none;
+                        border-radius: 10px;
+                    }
+                 }
+                 .card-image{
+                     justify-self: end;
+                     img{
+                         max-width: 400px;
+                         
+                     }
+                 }
+              }
+              
+          }
+          margin-bottom: 100px;
+    }
+  
+    .footer{
+        height: 150px;
+        font-size: 62.5%;
+        font-family: 'Open Sans', sans-serif;
+       h2{
+           color: $colorText;
+       }
+        display: grid;
+        justify-content: center;
+        .footer-div{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    @media only screen and (max-width: 767px){
+main{
+       .main-part{
+           grid-template-columns: 1fr;
+           grid-template-rows: 1fr 1fr;
+           img{
+               width: 300px;
+                align-self: center;
+                justify-self: center; 
+           }
+       }
+       .aboutme{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        h2{
+            text-align: center;
+        }
+        .skills{
+            display: grid;
+            justify-items: center;
+        }
+    }
+    .projects{
+        h2{
+            text-align: center;
+        }
+        .cards{
+            .card{
+                margin: 10px;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr; 
+                .card-text{
+                    display: grid;
+                    justify-content: center;
+                    
+                    p{
+                        text-align: center;
+                    }
+                    a{
+                       justify-self: center; 
+                    }
+                  
+                }
+                .card-image{
+                    display: flex;
+                        justify-self: center;
+                        margin-bottom: 10px;
+                    img{
+                        min-width: 300px;
+                        width: 100%;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+        
+        }
+    }
+
+   

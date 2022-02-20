@@ -1,0 +1,27 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main .main-part {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+main .main-part h1 {
+  color: #1a0f91;
+}
+main .main-part img {
+  width: 400px;
+}
+main .main-part .main-part-text {
+  display: grid;
+  text-align: center;
+  align-content: center;
+}
+main .main-part .main-part-text .icons {
+  display: flex;
+  justify-content: space-evenly;
+}
