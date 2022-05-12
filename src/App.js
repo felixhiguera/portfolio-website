@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import './Sass/App.scss';
-import image from './images/introimage.jpg'
 import Cards from './components/Cards';
+import redux from './images/redux.png'
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
                   <a href="https://twitter.com/edyhiguera"><i class="fab fa-twitter fa-3x"></i></a>
                 </div>
               </div>
-              <img src={image} alt="" />
+              <img src="https://res.cloudinary.com/dkctajvtu/image/upload/v1652385120/s95dqwa6jwdlr5bczf1g.jpg" alt="" />
             </div>
             <i class="fas fa-arrow-alt-circle-down fa-3x" id="aboutme"></i>
           </section>
@@ -50,6 +50,10 @@ function App() {
                 <div>
                   <i class="fab fa-react fa-3x"></i>
                   <p>React</p>
+                </div>
+                <div>
+                  <img src={redux} alt="" />
+                  <p>Redux</p>
                 </div>
                 <div>
                   <i class="fab fa-bootstrap fa-3x"></i>

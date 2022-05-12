@@ -144,7 +144,7 @@ body{
                      justify-self: end;
                      img{
                          max-width: 400px;
-                         
+                        height: 100%
                      }
                  }
               }
@@ -187,6 +187,7 @@ main{
         .skills{
             display: grid;
             justify-items: center;
+           
         }
     }
     .projects{
@@ -229,4 +230,7 @@ main{
         }
     }
 
-   
+   .format-technologies{
+       display: flex;
+    align-content: center;
+   }

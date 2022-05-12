@@ -8,7 +8,7 @@ const Card = ({ project }) => {
             <div className="card-text">
                 <h2>{name}</h2>
                 <p>{description}</p>
-                <p>{technologies}</p>
+                <p className="format-technologies">{technologies}</p>
 
                 <a href={link} target="_blank"><span>Website</span></a>
 
