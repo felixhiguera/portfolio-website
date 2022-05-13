@@ -1,8 +1,7 @@
 import React from 'react'
 
 const Card = ({ project }) => {
-    const { name, description, technologies, link, image } = project
-    console.log('hola')
+    const { id, name, description, technologies, link, image } = project
     return (
         <div className="card">
             <div className="card-text">

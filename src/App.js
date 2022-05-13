@@ -16,14 +16,14 @@ function App() {
                 <p>I am a Frontend Developer with experience in different technologies like HTML, CSS, Javascript and React.</p>
                 <div className="icons">
 
-                  <a href="https://www.linkedin.com/in/felix-edmundo-higuera-alonso-8605a9ba/"><i class="fab fa-linkedin fa-3x"></i></a>
-                  <a href="https://github.com/felixhiguera"><i class="fab fa-github fa-3x" style={{ color: "black" }}></i></a>
-                  <a href="https://twitter.com/edyhiguera"><i class="fab fa-twitter fa-3x"></i></a>
+                  <a href="https://www.linkedin.com/in/felix-edmundo-higuera-alonso-8605a9ba/"><i className="fab fa-linkedin fa-3x"></i></a>
+                  <a href="https://github.com/felixhiguera"><i className="fab fa-github fa-3x" style={{ color: "black" }}></i></a>
+                  <a href="https://twitter.com/edyhiguera"><i className="fab fa-twitter fa-3x"></i></a>
                 </div>
               </div>
               <img src="https://res.cloudinary.com/dkctajvtu/image/upload/v1652385120/s95dqwa6jwdlr5bczf1g.jpg" alt="" />
             </div>
-            <i class="fas fa-arrow-alt-circle-down fa-3x" id="aboutme"></i>
+            <i className="fas fa-arrow-alt-circle-down fa-3x" id="aboutme"></i>
           </section>
           <section className="aboutme" >
 
@@ -36,19 +36,19 @@ function App() {
               <h2>Skills</h2>
               <div className="skills" >
                 <div>
-                  <i class="fab fa-html5 fa-3x"></i>
+                  <i className="fab fa-html5 fa-3x"></i>
                   <p>html</p>
                 </div>
                 <div>
-                  <i class="fab fa-css3-alt fa-3x"></i>
+                  <i className="fab fa-css3-alt fa-3x"></i>
                   <p>css</p>
                 </div>
                 <div>
-                  <i class="fab fa-js fa-3x"></i>
+                  <i className="fab fa-js fa-3x"></i>
                   <p>js</p>
                 </div>
                 <div>
-                  <i class="fab fa-react fa-3x"></i>
+                  <i className="fab fa-react fa-3x"></i>
                   <p>React</p>
                 </div>
                 <div>
@@ -56,16 +56,16 @@ function App() {
                   <p>Redux</p>
                 </div>
                 <div>
-                  <i class="fab fa-bootstrap fa-3x"></i>
+                  <i className="fab fa-bootstrap fa-3x"></i>
                   <p>Bootstrap</p>
                 </div>
                 <div>
-                  <i class="fab fa-git-alt fa-3x"></i>
+                  <i className="fab fa-git-alt fa-3x"></i>
                   <p>git</p>
 
                 </div>
                 <div>
-                  <i class="fab fa-sass fa-3x" id="projects"></i>
+                  <i className="fab fa-sass fa-3x" id="projects"></i>
                   <p>sass</p>
                 </div>
               </div>
@@ -86,9 +86,9 @@ function App() {
         <h2>Let's stay in touch</h2>
         <div className="footer-div">
 
-          <a href="https://www.linkedin.com/in/felix-edmundo-higuera-alonso-8605a9ba/"><i class="fab fa-linkedin fa-3x" style={{ color: "#027bfd" }}></i></a>
-          <a href="https://github.com/felixhiguera"><i class="fab fa-github fa-3x" style={{ color: "black" }}></i></a>
-          <a href="https://twitter.com/edyhiguera"><i class="fab fa-twitter fa-3x" style={{ color: "#027bfd" }}></i></a>
+          <a href="https://www.linkedin.com/in/felix-edmundo-higuera-alonso-8605a9ba/"><i className="fab fa-linkedin fa-3x" style={{ color: "#027bfd" }}></i></a>
+          <a href="https://github.com/felixhiguera"><i className="fab fa-github fa-3x" style={{ color: "black" }}></i></a>
+          <a href="https://twitter.com/edyhiguera"><i className="fab fa-twitter fa-3x" style={{ color: "#027bfd" }}></i></a>
         </div>
       </div>
     </div>
